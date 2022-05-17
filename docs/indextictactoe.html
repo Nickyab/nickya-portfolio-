@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylestictactoe.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="scripttictactoe.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+
+     <!---Navbar section-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="home.html" id="navbar__logo">Nickya </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="ribbon.html" class="navbar__links"> Home </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="aboutme.html" class="navbar__links"> About Me </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="writings.html" class="navbar__links"> Writings</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="projects.html" class="navbar__links"> Projects </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="mailto:Nickyabellevue@gmail.com" class="button"> Contact Me </a>
+                </li>
+            </ul>
+        </div>
+    </nav>   
+
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <button id="restartButton">Restart</button>
+    </div>
+
+</body>
+</html>

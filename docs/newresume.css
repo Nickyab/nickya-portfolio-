@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+body .works__container{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+}
+.navbar{
+    display: flex;
+    flex-direction: top;
+    justify-content: top;
+}
+.works__container{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0, 1);
+}
+
+.works__container .left_side{
+    position: relative;
+    background: lightcoral;
+    padding: 40px;
+}
+
+
+.profileText{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(225, 225, 225, 225, 0.2);
+}
+
+.imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imgBx img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h1{
+color: #fff;
+font-size: 1.5rem;
+margin-top: 20px;
+text-transform: uppercase;
+text-align: right;
+font-weight: 600;
+line-height: 1.4em;
+}
+
+.profileText h1 span{
+    position: right;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactInfo{
+    padding-top: 40px;
+}
+
+.title{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contactInfo ul{
+    position: relative;
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    font-size: 0.5rem;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon{
+     display: inline-block;
+     width: 30px;
+     font-size: 18px;
+     color: #03a9f4;
+}
+
+.contactInfo ul li .text{
+    color:#fff;
+    font-weight: 300;
+}
+
+.contactInfo.education{
+    margin-bottom: 15px;
+}
+
+.contactInfo.education h5{
+    color: #d13906;
+    font-weight: 500;
+}
+
+.contactInfo.education h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.education h4{
+    color: #fff;
+    font-weight: 500;
+    font-size: .5rem;
+}
+
+
+
+
+
+.works__container .right_side{
+    position: right;
+    background: #fff;
+    padding: 40px;
+}
+
+
+.social__media{
+    position: bottom;
+}
